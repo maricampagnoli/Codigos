@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Uso de Formulários</title>
+		<meta charset="utf-8">
+	</head>
+<head>
+      <title>Exemplo Mais de Um Usuário</title>
+</head>
+<body>
+	<script>
+	  function enviarFormulario() {
+		  document.forms["form_CriarUsuario"].submit();
+	  }
+	</script>
+
+	<form name="form_CriarUsuario" action="http:InstanciarUsuario.php" method="post">
+		<pre>
+			Usuario  : 	<input type="text" name="usuario" maxlength="20"><br>
+			Senha    : 	<input type="text" name="senha" maxlength="10">
+					
+			<input type="button" onclick="enviarFormulario()" value="Criar Usuario">
+		</pre>
+	</form>
+</body>
+</html>
