@@ -1,0 +1,9 @@
+### Exercício
+
+Crie uma classe chamada `Numeros` que possui um único atributo de classe chamado `MULTIPLIER` e um construtor que usa os parâmetros `x` e `y` (todos devem ser números).
+
+1) Escreva um método chamado `soma` que retorna a soma dos atributos `x` e `y`.
+
+2) Escreva um método de classe chamado `multiplica` que usa um único parâmetro numérico `a` e retorna o produto de `a` e `MULTIPLIER`.
+
+3) Escreva um método chamado `valor` que retorna um tupla contendo os valores de `x` e `y`. Faça esse método se comportar como um atributo.
